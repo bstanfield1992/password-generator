@@ -1,17 +1,5 @@
 // Assignment code here
 
-// Coin flip to switch between upper and lower case
-
-function diceRoll (options) {
-  var dice = Math.floor(Math.random() * options);
-return dice;
-}
-
-function coinFlip() {
-  var coin = Math.floor(Math.random() * 2);
-  return coin;
-}
-
 function generatePassword() {
   var password = "";
   var lengthOfPassword = 0;
